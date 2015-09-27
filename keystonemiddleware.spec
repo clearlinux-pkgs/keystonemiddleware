@@ -4,7 +4,7 @@
 #
 Name     : keystonemiddleware
 Version  : 2.3.0
-Release  : 16
+Release  : 17
 URL      : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-2.3.0.tar.gz
 Source0  : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-2.3.0.tar.gz
 Summary  : Middleware for OpenStack Identity
@@ -33,7 +33,6 @@ BuildRequires : funcsigs-python
 BuildRequires : futures-python
 BuildRequires : greenlet-python
 BuildRequires : hacking-python
-BuildRequires : i18n-python
 BuildRequires : iso8601-python
 BuildRequires : kombu-python
 BuildRequires : linecache2-python
