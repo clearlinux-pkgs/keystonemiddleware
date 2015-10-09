@@ -1,5 +1,5 @@
 PKG_NAME := keystonemiddleware
-URL := http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-2.3.0.tar.gz
+URL := http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-2.3.1.tar.gz
 ARCHIVES :=
 
 include ../common/Makefile.common
