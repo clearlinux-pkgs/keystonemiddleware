@@ -1,11 +1,48 @@
 CHANGES
 =======
 
+4.2.0
+-----
+
+* Updated from global requirements
+* Deprecate in-process cache
+* Revert "Disable memory caching of tokens"
+* Revert "Don't cache signed tokens"
+* Updated from global requirements
+* Fix tests to work with keystoneauth1 2.2.0
+* Bandit profile updates
+* Replace deprecated library function os.popen() with subprocess
+
+4.1.0
+-----
+
+* Add project_name to the auth_token fixture
+* Revert "Stop using private keystoneclient functions"
+* create release notes for ksm 4.1.0
+* Don't cache signed tokens
+* Disable memory caching of tokens
+* Updated from global requirements
+* Use oslo_config choices support
+* Stop using private keystoneclient functions
+* Use fixture for mock patch
+* auth_token verify revocation by audit_id
+* Updated from global requirements
+* Deprecated tox -downloadcache option removed
+* Updated from global requirements
+* Make BaseAuthProtocol public
+* Configuration is outdated
+* Updated from global requirements
+* Use keystoneauth for auth_token fixture
+* Don't list deprecated opts in sample config
+* Updated from global requirements
+* Put py34 first in the env order of tox
+
 4.0.0
 -----
 
 * Add release notes for keystonemiddleware
 * Updated from global requirements
+* Adding parse of protocol v4 of AWS auth to ec2_token
 * Add a mock-fixture for keystonemiddleware auth_protocol
 * Add domain and trust details to user plugin
 * Remove py26 target from tox.ini
