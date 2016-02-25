@@ -1,6 +1,21 @@
 CHANGES
 =======
 
+4.3.0
+-----
+
+* argparse expects a list not a dictionary
+* update deprecation message to indicate when deprecations were made
+* Updated from global requirements
+* Split oslo_config and list all opts
+* Updated from global requirements
+* Make pep8 *the* linting interface
+* Remove clobbering of passed oslo_config_config
+* Updated from global requirements
+* Use positional instead of keystoneclient version
+* Updated from global requirements
+* Remove Babel from requirements.txt
+
 4.2.0
 -----
 
@@ -9,6 +24,11 @@ CHANGES
 * Revert "Disable memory caching of tokens"
 * Revert "Don't cache signed tokens"
 * Updated from global requirements
+* Remove bandit tox environment
+* Remove unnecessary _reject_request function
+* Group common PKI validation code - Refactor
+* Group common PKI validation code - Tests
+* Remove except Exception handler
 * Fix tests to work with keystoneauth1 2.2.0
 * Bandit profile updates
 * Replace deprecated library function os.popen() with subprocess
@@ -30,6 +50,7 @@ CHANGES
 * Deprecated tox -downloadcache option removed
 * Updated from global requirements
 * Make BaseAuthProtocol public
+* Use load_from_options_getter for auth plugins
 * Configuration is outdated
 * Updated from global requirements
 * Use keystoneauth for auth_token fixture
