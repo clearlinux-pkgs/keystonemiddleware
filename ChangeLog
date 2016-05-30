@@ -1,11 +1,41 @@
 CHANGES
 =======
 
-4.4.0
+4.5.0
 -----
 
 * Updated from global requirements
-* Update .gitreview for stable/mitaka
+* Updated from global requirements
+* Fix D105: Missing docstring in magic method (PEP257)
+* Fix D200: One-line docstring should fit on one line with quotes (PEP257)
+* Fix D202: No blank lines allowed after function docstring (PEP257)
+* Adding audit middleware specific notification driver conf
+* remove old options from documentation
+* generate sample config automatically
+* Return default value for pkg_version if missing
+* Updated from global requirements
+* Fix D204 PEP257 violation and enable D301 and D209
+* Fix D400 PEP257 violation
+* Fix D401 PEP257 violation and enable H403
+* Update config options
+* s3token config with auth URI
+* Updated from global requirements
+* Return JSON for Unauthorized message
+* Updated from global requirements
+* Fix doc build if git is absent
+* PEP257: add flake8-docstring testing
+* Only confirm token binding on one token
+* Create signing_dir upon first usage
+* Updated from global requirements
+* Updated from global requirements
+* Handle cache invalidate outside cache object
+* Update reno for stable/mitaka
+* Remove bandit.yaml in favor of defaults
+* use the same context across a request
+* Updated from global requirements
+* Update documentation for running tests
+* Updated from global requirements
+* Add back a bandit tox job
 
 4.3.0
 -----
@@ -768,7 +798,7 @@ CHANGES
 * Add auth-token code to keystoneclient, along with supporting files
 * Add auth-token code to keystoneclient, along with supporting files
 * Use the right subprocess based on os monkeypatch
-* Make initial structural changes to keystoneclient in preparation to moving auth_token here from keystone. No functional change should occur from this commit (even though it did refresh a newer copy of openstack.common.setup.py, none of the newer updates are in functions called from this client)
+* Make initial structural changes to keystoneclient in preparation to moving auth_token here from keystone.  No functional change should occur from this commit (even though it did refresh a newer copy of openstack.common.setup.py, none of the newer updates are in functions called from this client)
 * fixes bug 1074172
 * HACKING compliance: consistent use of 'except'
 * auth_token hash pki key PKI tokens on hash in memcached when accessed by auth_token middelware
@@ -790,7 +820,7 @@ CHANGES
 * Cryptographically Signed tokens
 * Prevent service catalog injection in auth_token
 * Admin Auth URI prefix
-* Support 2-way SSL with Keystone server if it is configured to enforce 2-way SSL. See also https://review.openstack.org/#/c/7706/ for the corresponding review for the 2-way SSL addition to Keystone
+* Support 2-way SSL with Keystone server if it is configured to enforce 2-way SSL.  See also https://review.openstack.org/#/c/7706/ for the corresponding review for the 2-way SSL addition to Keystone
 * Change CLI options to use dashes
 * Keystone should use openstack.common.jsonutils
 * Removed unused import
