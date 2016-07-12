@@ -1,6 +1,52 @@
 CHANGES
 =======
 
+4.6.0
+-----
+
+* Updated from global requirements
+* Use extras for oslo.messaging dependency
+* Refactor API tests to not run middleware
+* Refactor audit api tests into their own file
+* Refactor create_event onto the api object
+* Extract a common notifier pattern
+* Break out the API piece into its own file
+* Use createfile fixture in audit test
+* Move audit into its own folder
+* use local config options if available in audit middleware
+* Use oslo.config fixture in audit tests
+* Pop oslo_config_config before doing paste convert
+* Updated from global requirements
+* Fix typo 'olso' to 'oslo'
+* Config: no need to set default=None
+* Fix an issue with oslo_config_project paste config
+* Updated from global requirements
+* Pass X_IS_ADMIN_PROJECT header from auth_token
+* Clean up middleware architecture
+* Updated from global requirements
+* Add a fixture method to add your own token data
+* Move auth token opts calculation into auth_token
+* Make audit middleware use common config object
+* Consolidate user agent calculation
+* Create a Config object
+* Updated from global requirements
+* Updated from global requirements
+* Improve documentation for auth_uri
+* PEP257: Ignore D203 because it was deprecated
+* Updated from global requirements
+* Use method split_path from oslo.utils
+* Updated from global requirements
+* Make sure audit can handle API requests which does not require a token
+* Updated from global requirements
+* Updated from global requirements
+* Updated from global requirements
+* Determine project name from oslo_config or local config
+
+4.5.1
+-----
+
+* Fix AttributeError on cached-invalid token checks
+
 4.5.0
 -----
 
