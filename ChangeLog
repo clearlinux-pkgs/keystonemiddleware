@@ -1,6 +1,32 @@
 CHANGES
 =======
 
+4.10.0
+------
+
+* Return and use an app wherever possible
+* Refactor audit tests to use create_middleware
+* Use oslo_messaging conf fixture
+* Extract oslo_messaging specific audit tests
+* Use the mocking fixture in notifier tests
+* Updated from global requirements
+* Use method constant_time_compare from oslo.utils
+* Raise NotImplementedError instead of NotImplemented
+* Updated from global requirements
+* Updated from global requirements
+* standardize release note page ordering
+* Update reno for stable/newton
+* Globalize authentication failure error
+* Updated from global requirements
+
+4.9.0
+-----
+
+* Updated from global requirements
+* Updated from global requirements
+* Updated from global requirements
+* Updated from global requirements
+
 4.8.0
 -----
 
@@ -16,6 +42,7 @@ CHANGES
 * Updated from global requirements
 * Updated from global requirements
 * Use jsonutils instead of ast for loading the service catalog
+* Use AccessInfo in UserAuthPlugin instead of custom
 * Remove the _is_v2 and _is_v3 helpers
 * Remove oslo-incubator
 
