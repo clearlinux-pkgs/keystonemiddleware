@@ -4,7 +4,7 @@
 #
 Name     : keystonemiddleware
 Version  : 4.10.0
-Release  : 38
+Release  : 39
 URL      : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-4.10.0.tar.gz
 Source0  : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-4.10.0.tar.gz
 Summary  : Middleware for OpenStack Identity
@@ -22,7 +22,6 @@ BuildRequires : aioeventlet-python
 BuildRequires : amqp-python
 BuildRequires : anyjson-python
 BuildRequires : bandit-python
-BuildRequires : bs4-python
 BuildRequires : cachetools-python
 BuildRequires : configparser-python
 BuildRequires : coverage-python
@@ -36,6 +35,7 @@ BuildRequires : flake8-python
 BuildRequires : futures-python
 BuildRequires : greenlet-python
 BuildRequires : hacking-python
+BuildRequires : imagesize-python
 BuildRequires : iso8601-python
 BuildRequires : kombu-python
 BuildRequires : linecache2-python
@@ -63,6 +63,7 @@ BuildRequires : py-python
 BuildRequires : pycadf-python
 BuildRequires : pycrypto-python
 BuildRequires : pyflakes-python
+BuildRequires : pyparsing-python
 BuildRequires : pyrsistent-python
 BuildRequires : pytest
 BuildRequires : python-dev
