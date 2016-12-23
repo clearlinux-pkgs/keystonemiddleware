@@ -4,7 +4,7 @@
 #
 Name     : keystonemiddleware
 Version  : 4.10.0
-Release  : 35
+Release  : 36
 URL      : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-4.10.0.tar.gz
 Source0  : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-4.10.0.tar.gz
 Summary  : Middleware for OpenStack Identity
