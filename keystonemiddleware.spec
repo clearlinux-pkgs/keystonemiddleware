@@ -6,7 +6,7 @@
 #
 Name     : keystonemiddleware
 Version  : 4.10.0
-Release  : 40
+Release  : 41
 URL      : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-4.10.0.tar.gz
 Source0  : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-4.10.0.tar.gz
 Source99 : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-4.10.0.tar.gz.asc
@@ -126,7 +126,7 @@ python components for the keystonemiddleware package.
 
 %build
 export LANG=C
-export SOURCE_DATE_EPOCH=1487900471
+export SOURCE_DATE_EPOCH=1489029012
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
@@ -136,7 +136,7 @@ export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 PYTHONPATH=%{buildroot}/usr/lib/python2.7/site-packages python2 setup.py test || :
 %install
-export SOURCE_DATE_EPOCH=1487900471
+export SOURCE_DATE_EPOCH=1489029012
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
