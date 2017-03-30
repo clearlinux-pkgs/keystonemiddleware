@@ -1,6 +1,63 @@
 CHANGES
 =======
 
+4.14.0
+------
+
+* Updated from global requirements
+* fix broken links
+* use oslo.log instead of logging
+* Removes unnecessary utf-8 coding
+* Remove references to Python 3.4
+* Switch tox unit test command to use ostestr
+
+4.13.1
+------
+
+* Add Constraints support
+* Auth token, set the correct charset
+
+4.13.0
+------
+
+* Limit deprecated token message to single warning
+* auth_token: set correct charset when replying with 401
+* Updated from global requirements
+
+4.12.0
+------
+
+* Pass ?allow_expired
+* Updated from global requirements
+* clean up a few doc building warnings
+* Add docutils contraint on 0.13.1 to fix building
+* Updated from global requirements
+* Updated from global requirements
+* Updated from global requirements
+
+4.11.0
+------
+
+* Drop MANIFEST.in - it's not needed by pbr
+* Show team and repo badges on README
+* Updated from global requirements
+* Deprecate PKI token format options
+* Updated from global requirements
+* Mock log only after app creation
+* Updated from global requirements
+* Update .coveragerc after the removal of respective directory
+* Updated from global requirements
+* Updated from global requirements
+* Updated from global requirements
+* Updated from global requirements
+* Updated from global requirements
+* Updated from global requirements
+* Updated from global requirements
+* Add service token to user token plugin
+* Specify that unknown arguments can be passed to fetch_token
+* Enable release notes translation
+* Changed the home-page link
+
 4.10.0
 ------
 
@@ -14,6 +71,7 @@ CHANGES
 * Raise NotImplementedError instead of NotImplemented
 * Updated from global requirements
 * Updated from global requirements
+* Update code to use Newton as the code name
 * standardize release note page ordering
 * Update reno for stable/newton
 * Globalize authentication failure error
