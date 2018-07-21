@@ -6,7 +6,7 @@
 #
 Name     : keystonemiddleware
 Version  : 4.14.0
-Release  : 43
+Release  : 44
 URL      : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-4.14.0.tar.gz
 Source0  : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-4.14.0.tar.gz
 Source99 : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-4.14.0.tar.gz.asc
