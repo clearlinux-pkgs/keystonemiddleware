@@ -1,10 +1,27 @@
 CHANGES
 =======
 
+5.3.0
+-----
+
+* Respect delay\_auth\_decision when Keystone is unavailable
+* Use templates for cover and lower-constraints
+* Remove tox\_install.sh
+* No need to compare CONF content
+* add lib-forward-testing-python3 test job
+* add python 3.6 unit test job
+* switch documentation job to new PTI
+* import zuul job settings from project-config
+* add releasenotes to readme.rst
+* Handle DiscoveryFailure errors
+* Update reno for stable/rocky
+* Replace port 35357 with 5000
+
 5.2.0
 -----
 
 * Fix KeystoneMiddleware memcachepool abstraction
+* Document endpoint interface and region behavior
 * fix tox python3 overrides
 * Follow the new PTI for document build
 * Switch coverage tox env to stestr
