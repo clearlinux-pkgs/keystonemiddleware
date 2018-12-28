@@ -6,7 +6,7 @@
 #
 Name     : keystonemiddleware
 Version  : 5.3.0
-Release  : 47
+Release  : 48
 URL      : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-5.3.0.tar.gz
 Source0  : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-5.3.0.tar.gz
 Source99 : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-5.3.0.tar.gz.asc
