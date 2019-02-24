@@ -6,7 +6,7 @@
 #
 Name     : keystonemiddleware
 Version  : 5.3.0
-Release  : 48
+Release  : 49
 URL      : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-5.3.0.tar.gz
 Source0  : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-5.3.0.tar.gz
 Source99 : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-5.3.0.tar.gz.asc
@@ -16,12 +16,8 @@ License  : Apache-2.0
 Requires: keystonemiddleware-license = %{version}-%{release}
 Requires: keystonemiddleware-python = %{version}-%{release}
 Requires: keystonemiddleware-python3 = %{version}-%{release}
-Requires: Sphinx
 Requires: WebOb
-Requires: WebTest
-Requires: doc8
 Requires: keystoneauth1
-Requires: openstackdocstheme
 Requires: oslo.cache
 Requires: oslo.config
 Requires: oslo.context
@@ -30,24 +26,20 @@ Requires: oslo.log
 Requires: oslo.messaging
 Requires: oslo.serialization
 Requires: oslo.utils
-Requires: oslotest
 Requires: pbr
 Requires: pycadf
 Requires: python-keystoneclient
-Requires: python-memcached
-Requires: python-mock
-Requires: reno
 Requires: requests
-Requires: requests-mock
 Requires: six
-Requires: sphinxcontrib-apidoc
-Requires: testresources
 BuildRequires : buildreq-distutils3
 BuildRequires : pbr
 
 %description
+========================
 Team and repository tags
-        ========================
+========================
+.. image:: https://governance.openstack.org/tc/badges/keystonemiddleware.svg
+:target: https://governance.openstack.org/tc/reference/tags/index.html
 
 %package license
 Summary: license components for the keystonemiddleware package.
@@ -83,7 +75,8 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1541267462
+export SOURCE_DATE_EPOCH=1551030346
+export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
 %install
