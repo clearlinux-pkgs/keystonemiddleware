@@ -1,6 +1,24 @@
 CHANGES
 =======
 
+6.0.0
+-----
+
+* Fix service\_token\_role\_required option
+* add python 3.7 unit test job
+* trivial: fix convention in release note
+* Add auth invalidation in auth\_token for identity endpoint update
+* Remove testr.conf as it's been replaced by stestr
+* Make sure audit middleware use own context
+* Trivial: Update pypi url to new url
+* Change openstack-dev to openstack-discuss
+* Added request\_id and global\_request\_id to CADF notifications
+* Add py36 tox environment
+* Documentation Fix - auth\_url Port Number
+* Stop supporting revocation list
+* Fix audit target service selection
+* Skip the services with no endpoints when parsing service catalog
+
 5.3.0
 -----
 
@@ -74,6 +92,7 @@ CHANGES
 * Log TokenNotFound at INFO level instead of WARNING
 * rel-note and doc for lazy loading of oslo\_cache
 * lazy loading of oslo\_cache
+* Expect paste.deploy and gnocchi/panko options
 
 4.19.0
 ------
