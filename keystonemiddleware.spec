@@ -6,7 +6,7 @@
 #
 Name     : keystonemiddleware
 Version  : 6.1.0
-Release  : 52
+Release  : 53
 URL      : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-6.1.0.tar.gz
 Source0  : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-6.1.0.tar.gz
 Source99 : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-6.1.0.tar.gz.asc
