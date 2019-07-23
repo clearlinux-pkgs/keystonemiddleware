@@ -3,5 +3,6 @@ barbican
 cinder
 glance
 ironic
+keystone
 neutron
 nova
