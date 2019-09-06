@@ -5,11 +5,11 @@
 # Source0 file verified with key 0xFC43F0EE211DFED8 (infra-root@openstack.org)
 #
 Name     : keystonemiddleware
-Version  : 7.0.0
-Release  : 54
-URL      : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-7.0.0.tar.gz
-Source0  : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-7.0.0.tar.gz
-Source99 : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-7.0.0.tar.gz.asc
+Version  : 7.0.1
+Release  : 55
+URL      : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-7.0.1.tar.gz
+Source0  : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-7.0.1.tar.gz
+Source1 : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-7.0.1.tar.gz.asc
 Summary  : Middleware for OpenStack Identity
 Group    : Development/Tools
 License  : Apache-2.0
@@ -82,14 +82,15 @@ python3 components for the keystonemiddleware package.
 
 
 %prep
-%setup -q -n keystonemiddleware-7.0.0
+%setup -q -n keystonemiddleware-7.0.1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1563890448
+export SOURCE_DATE_EPOCH=1567790872
+# -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
