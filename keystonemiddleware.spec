@@ -6,7 +6,7 @@
 #
 Name     : keystonemiddleware
 Version  : 8.0.0
-Release  : 58
+Release  : 59
 URL      : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-8.0.0.tar.gz
 Source0  : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-8.0.0.tar.gz
 Source1  : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-8.0.0.tar.gz.asc
@@ -52,8 +52,40 @@ BuildRequires : six
 ========================
 Team and repository tags
 ========================
+
 .. image:: https://governance.openstack.org/tc/badges/keystonemiddleware.svg
-:target: https://governance.openstack.org/tc/reference/tags/index.html
+    :target: https://governance.openstack.org/tc/reference/tags/index.html
+
+.. Change things from this point on
+
+Middleware for the OpenStack Identity API (Keystone)
+====================================================
+
+.. image:: https://img.shields.io/pypi/v/keystonemiddleware.svg
+    :target: https://pypi.org/project/keystonemiddleware/
+    :alt: Latest Version
+
+.. image:: https://img.shields.io/pypi/dm/keystonemiddleware.svg
+    :target: https://pypi.org/project/keystonemiddleware/
+    :alt: Downloads
+
+This package contains middleware modules designed to provide authentication and
+authorization features to web services other than `Keystone
+<https://github.com/openstack/keystone>`. The most prominent module is
+``keystonemiddleware.auth_token``. This package does not expose any CLI or
+Python API features.
+
+For information on contributing, see ``CONTRIBUTING.rst``.
+
+* License: Apache License, Version 2.0
+* Documentation: https://docs.openstack.org/keystonemiddleware/latest/
+* Source: https://opendev.org/openstack/keystonemiddleware
+* Bugs: https://bugs.launchpad.net/keystonemiddleware
+* Release notes: https://docs.openstack.org/releasenotes/keystonemiddleware/
+
+For any other information, refer to the parent project, Keystone:
+
+    https://github.com/openstack/keystone
 
 %package license
 Summary: license components for the keystonemiddleware package.
@@ -76,6 +108,7 @@ python components for the keystonemiddleware package.
 Summary: python3 components for the keystonemiddleware package.
 Group: Default
 Requires: python3-core
+Provides: pypi(keystonemiddleware)
 
 %description python3
 python3 components for the keystonemiddleware package.
@@ -90,7 +123,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1578511304
+export SOURCE_DATE_EPOCH=1583164739
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar

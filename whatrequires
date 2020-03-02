@@ -2,8 +2,10 @@
 barbican
 cinder
 glance
+heat
 ironic
 keystone
 neutron
 nova
 sahara
+swift
