@@ -6,7 +6,7 @@
 #
 Name     : keystonemiddleware
 Version  : 9.0.0
-Release  : 60
+Release  : 61
 URL      : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-9.0.0.tar.gz
 Source0  : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-9.0.0.tar.gz
 Source1  : http://tarballs.openstack.org/keystonemiddleware/keystonemiddleware-9.0.0.tar.gz.asc
